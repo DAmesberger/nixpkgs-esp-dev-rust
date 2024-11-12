@@ -3,7 +3,7 @@ pkgs.mkShell {
   name = "esp-idf";
 
   buildInputs = with pkgs; [
-    gcc-xtensa-esp32s2-elf-bin
+    gcc-xtensa-esp32s3-elf-bin
     openocd-esp32-bin
     # esp-idf
     # esptool
